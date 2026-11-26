@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AI hardware &amp; platforms — watchlist</title>
+<style>
+  :root{
+    --bg:#0f1115; --panel:#161a21; --line:#262c36; --text:#e8eaed; --muted:#9aa3af;
+    --keep:#3fa86a; --trim:#c9a227; --sell:#c4544f; --watch:#5b7fa6; --accent:#7aa2f7;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);
+    font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif}
+  .wrap{max-width:1120px;margin:0 auto;padding:28px 20px 64px}
+  header{display:flex;flex-wrap:wrap;align-items:baseline;gap:10px 16px;margin-bottom:6px}
+  h1{font-size:22px;margin:0;letter-spacing:-.01em}
+  .sub{color:var(--muted);font-size:13px}
+  .lede{color:var(--muted);font-size:14px;margin:10px 0 22px;max-width:78ch}
+  h2{font-size:13px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);
+    margin:34px 0 12px;font-weight:600}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px}
+  .tv{min-height:440px}
+  table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums;font-size:13.5px}
+  th{position:sticky;top:0;background:var(--panel);text-align:left;font-weight:600;
+    color:var(--muted);font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;
+    padding:10px 10px;border-bottom:1px solid var(--line);z-index:2}
+  td{padding:10px;border-bottom:1px solid var(--line);vertical-align:top}
+  tr:last-child td{border-bottom:none}
+  tbody tr:hover{background:#1b2028}
+  .tk{font-weight:650;color:var(--text);text-decoration:none}
+  .tk:hover{color:var(--accent)}
+  .nm{display:block;color:var(--muted);font-size:12px;font-weight:400;margin-top:2px}
+  .num{color:var(--muted);white-space:nowrap}
+  .chip{display:inline-block;padding:2px 8px;border-radius:999px;font-size:11.5px;
+    font-weight:600;white-space:nowrap;border:1px solid transparent}
+  .k{color:#d6f5e3;background:rgba(63,168,106,.16);border-color:rgba(63,168,106,.4)}
+  .t{color:#f7ecc9;background:rgba(201,162,39,.16);border-color:rgba(201,162,39,.4)}
+  .s{color:#f8d8d6;background:rgba(196,84,79,.16);border-color:rgba(196,84,79,.45)}
+  .w{color:#d7e4f2;background:rgba(91,127,166,.16);border-color:rgba(91,127,166,.4)}
+  .split{margin-top:8px;font-size:11.5px;color:var(--muted)}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}
+  .kbox{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px 14px}
+  .kbox b{display:block;font-size:12px;color:var(--muted);font-weight:600;letter-spacing:.04em;
+    text-transform:uppercase;margin-bottom:4px}
+  .kbox span{font-size:14px}
+  footer{margin-top:34px;color:var(--muted);font-size:12px;border-top:1px solid var(--line);padding-top:14px}
+  a{color:var(--accent)}
+  @media (max-width:720px){ .hide-s{display:none} h1{font-size:19px} .wrap{padding:20px 12px 48px} }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <h1>AI hardware &amp; platforms — watchlist</h1>
+    <span class="sub">Updated 26 Nov 2026 · prices from TradingView (delayed) · fundamentals TTM</span>
+  </header>
+  <p class="lede">Built around the November selloff. The screen: real manufacturers first, then the platforms that
+  pay for the buildout. Levels are the retest zones and confirmation triggers discussed for each name; a close through
+  the lower level invalidates the entry.</p>
+
+  <div class="card" style="border-color:#3a2f22;background:#1c1813;margin-bottom:18px">
+    <b style="font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:#c9a227">Since 23 Nov — the index is flat, the trade isn't</b>
+    <div style="margin-top:6px;font-size:13.5px;color:#d8d2c4">
+      S&amp;P 500 (SPY) is roughly unchanged, but the AI complex kept bleeding: <b>MU −15%</b> (now inside the $585–640
+      retest zone), <b>SNDK −16%</b> (broke $78 — the invalidation level), NVDA −9.5%, ORCL −8.6%, ASML −5.8%.
+      This is an AI de-rating, not a market-wide drawdown, and it is resolving the levels rather than the multiples.
+    </div>
+  </div>
+
+  <h2>Live prices</h2>
+  <div class="card tv">
+    <div class="tradingview-widget-container">
+      <div class="tradingview-widget-container__widget"></div>
+      <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
+      {
+        "colorTheme": "dark",
+        "dateRange": "1D",
+        "showChart": true,
+        "locale": "en",
+        "width": "100%",
+        "height": "430",
+        "isTransparent": true,
+        "showSymbolLogo": true,
+        "showFloatingTooltip": true,
+        "plotLineColorGrowing": "rgba(63, 168, 106, 1)",
+        "plotLineColorFalling": "rgba(196, 84, 79, 1)",
+        "tabs": [
+          {"title": "Hardware",
+           "symbols": [
+             {"s": "NASDAQ:MU", "d": "Micron"},
+             {"s": "KRX:000660", "d": "SK hynix"},
+             {"s": "KRX:005930", "d": "Samsung"},
+             {"s": "NASDAQ:SNDK", "d": "Sandisk"},
+             {"s": "NASDAQ:WDC", "d": "Western Digital"},
+             {"s": "NASDAQ:STX", "d": "Seagate"},
+             {"s": "NASDAQ:ASML", "d": "ASML"},
+             {"s": "NYSE:TSM", "d": "TSMC"},
+             {"s": "NYSE:VRT", "d": "Vertiv"},
+             {"s": "NASDAQ:AMAT", "d": "Applied Materials"},
+             {"s": "NASDAQ:LRCX", "d": "Lam Research"},
+             {"s": "NASDAQ:KLAC", "d": "KLA"}
+           ]},
+          {"title": "Platforms",
+           "symbols": [
+             {"s": "NASDAQ:MSFT", "d": "Microsoft"},
+             {"s": "NASDAQ:GOOGL", "d": "Alphabet"},
+             {"s": "NASDAQ:AAPL", "d": "Apple"},
+             {"s": "NYSE:ORCL", "d": "Oracle"},
+             {"s": "NYSE:BABA", "d": "Alibaba"},
+             {"s": "NASDAQ:NVDA", "d": "Nvidia"},
+             {"s": "NASDAQ:AVGO", "d": "Broadcom"}
+           ]}
+        ]
+      }
+      </script>
+    </div>
+  </div>
+
+  <h2>Manufacturers — the original screen</h2>
+  <div class="card" style="padding:0">
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th><th class="hide-s">What it makes</th><th>Stance</th>
+          <th>Retest zone</th><th>Confirm</th><th>Why</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td><a class="tk" href="https://www.tradingview.com/symbols/NASDAQ-MU/" target="_blank" rel="noopener">MU</a><span class="nm">Micron</span></td>
+          <td class="hide-s">DRAM / HBM / NAND fabs</td><td><span class="chip k">Keep</span></td>
+          <td class="num">$585–640 ✓</td><td class="num">&gt; $721</td>
+          <td>9.5x TTM / 4.0x fwd · 44% FCF margin · $68B net cash · &gt;75% of FY27 committed</td></tr>
+
+        <tr><td><a class="tk" href="https://www.tradingview.com/symbols/KRX-000660/" target="_blank" rel="noopener">000660</a><span class="nm">SK hynix</span></td>
+          <td class="hide-s">DRAM / HBM fabs</td><td><span class="chip k">Keep</span></td>
+          <td class="num">₩1.04–1.15m</td><td class="num">&gt; ₩1.212m</td>
+          <td>4.4x TTM / 2.2x fwd · 46% FCF margin · D/E 0.06 · HBM leader</td></tr>
+
+        <tr><td><a class="tk" href="https://www.tradingview.com/symbols/KRX-005930/" target="_blank" rel="noopener">005930</a><span class="nm">Samsung Electronics</span></td>
+          <td class="hide-s">DRAM/HBM + foundry</td><td><span class="chip k">Keep</span></td>
+          <td class="num">₩171.5–181.4k</td><td class="num">&gt; ₩193.7k</td>
+          <td>6.0x TTM / 2.5x fwd · 34% FCF margin · D/E 0.03 · Jan 8 prelim is the read</td></tr>
+
+        <tr><td><a class="tk" href="https://www.tradingview.com/symbols/NASDAQ-SNDK/" target="_blank" rel="noopener">SNDK</a><span class="nm">Sandisk</span></td>
+          <td class="hide-s">NAND flash + SSDs</td><td><span class="chip s">Stand aside</span></td>
+          <td class="num">$78 broken</td><td class="num">&gt; $99</td>
+          <td>5.7x TTM / 2.9x fwd · 60% FCF margin · no debt · closed below the $78 invalidation level — wait for the NAND contract print</td></tr>
+
+        <tr><td><a class="tk" href="https://www.tradingview.com/symbols/NASDAQ-WDC/" target="_blank" rel="noopener">WDC</a><span class="nm">Western Digital</span></td>
+          <td class="hide-s">Nearline HDDs</td><td><span class="chip k">Keep</span></td>
+          <td class="num">$257–270</td><td class="num">&gt; $308</td>
+          <td>11.5x* TTM / 10.3x fwd · 30% FCF margin · *net income carries ~$4B non-operating gains</td></tr>
+
+        <tr><td><a class="tk" href="https://www.tradingview.com/symbols/NASDAQ-STX/" target="_blank" rel="noopener">STX</a><span class="nm">Seagate</span></td>
+          <td class="hide-s">HDDs (HAMR)</td><td><span class="chip t">Trim</span></td>
+          <td class="num">$454–480</td><td class="num">&gt; $554</td>
+          <td>27.3x TTM / 11.1x fwd · 30% FCF margin · net debt, 0.77 D/E — WDC is the cleaner HDD</td></tr>
+
+        <tr><td><a class="tk" href="https://www.tradingview.com/symbols/NASDAQ-ASML/" target="_blank" rel="noopener">ASML</a><span class="nm">ASML</span></td>
+          <td class="hide-s">EUV lithography</td><td><span class="chip k">Keep</span></td>
+          <td class="num">$1,258–1,300</td><td class="num">&gt; $1,415</td>
+          <td>36.3x TTM / 22.3x fwd · 53.6% FCF margin · net cash $12B · Q4 Jan 27</td></tr>
+
+        <tr><td><a class="tk" href="https://www.tradingview.com/symbols/NYSE-TSM/" target="_blank" rel="noopener">TSM</a><span class="nm">TSMC</span></td>
+          <td class="hide-s">Leading-edge foundry</td><td><span class="chip k">Keep</span></td>
+          <td class="num">—</td><td class="num">—</td>
+          <td>24.5x TTM / 17.3x fwd · 30% FCF margin · $92B net cash · only −25% off the high</td></tr>
+
+        <tr><td><a class="tk" href="https://www.tradingview.com/symbols/NYSE-VRT/" target="_blank" rel="noopener">VRT</a><span class="nm">Vertiv</span></td>
+          <td class="hide-s">Rack power + cooling</td><td><span class="chip t">Trim to ½</span></td>
+          <td class="num">$164–172</td><td class="num">&gt; $199</td>
+          <td>34.8x TTM / 20.1x fwd · 24% FCF margin · stopped disclosing orders · Feb 10 guide</td></tr>
+
+        <tr><td><a class="tk" href="https://www.tradingview.com/symbols/NASDAQ-AMAT/" target="_blank" rel="noopener">AMAT</a><span class="nm">Applied Materials</span></td>
+          <td class="hide-s">Dep / etch / clean tools</td><td><span class="chip w">Watch</span></td>
+          <td class="num">—</td><td class="num">—</td>
+          <td>27.5x TTM / 18.0x fwd · only 2.3% FCF yield · China 28% of revenue</td></tr>
+
+        <tr><td><a class="tk" href="https://www.tradingview.com/symbols/NASDAQ-LRCX/" target="_blank" rel="noopener">LRCX</a><span class="nm">Lam Research</span></td>
+          <td class="hide-s">Etch / deposition</td><td><span class="chip w">Watch</span></td>
+          <td class="num">—</td><td class="num">—</td>
+          <td>31.3x TTM / 20.4x fwd · 2.5% FCF yield · China 35% of revenue</td></tr>
+
+        <tr><td><a class="tk" href="https://www.tradingview.com/symbols/NASDAQ-KLAC/" target="_blank" rel="noopener">KLAC</a><span class="nm">KLA</span></td>
+          <td class="hide-s">Inspection / metrology</td><td><span class="chip w">Watch</span></td>
+          <td class="num">—</td><td class="num">—</td>
+          <td>36.6x TTM / 23.5x fwd · 2.1% FCF yield · most expensive of the toolmakers</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="split">*WDC trailing net income includes roughly $4B of non-operating gains; on operating earnings it is ~19x.</p>
+
+  <h2>Platforms — the customers</h2>
+  <div class="card" style="padding:0">
+    <table>
+      <thead>
+        <tr><th>Name</th><th class="hide-s">Role</th><th>Stance</th><th>Capex / rev</th><th>FCF yield</th><th>Why</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><a class="tk" href="https://www.tradingview.com/symbols/NASDAQ-MSFT/" target="_blank" rel="noopener">MSFT</a><span class="nm">Microsoft</span></td>
+          <td class="hide-s">Lessor, cash-funded</td><td><span class="chip k">Keep</span></td>
+          <td class="num">39.2%</td><td class="num">1.64%</td>
+          <td>25.7x TTM / 23.7x fwd · only hyperscaler still FCF-positive ($60B) · Azure +48% · RPO $677B</td></tr>
+
+        <tr><td><a class="tk" href="https://www.tradingview.com/symbols/NASDAQ-GOOGL/" target="_blank" rel="noopener">GOOGL</a><span class="nm">Alphabet</span></td>
+          <td class="hide-s">Lessor, cash-funded</td><td><span class="chip k">Keep</span></td>
+          <td class="num">33.9%</td><td class="num">0.57%</td>
+          <td>21.3x EV/EBIT · cloud +103% · Gemini 4 · Q3 FCF −$9.1B · 14.7x trailing P/E is inflated by stake gains</td></tr>
+
+        <tr><td><a class="tk" href="https://www.tradingview.com/symbols/NASDAQ-AAPL/" target="_blank" rel="noopener">AAPL</a><span class="nm">Apple</span></td>
+          <td class="hide-s">Payer</td><td><span class="chip s">Sell / trim</span></td>
+          <td class="num">1.9%</td><td class="num">2.68%</td>
+          <td>38.9x TTM / 37.1x fwd for 8% growth · GM guided 47.9% → 45–46% on memory costs · 3% off its high</td></tr>
+
+        <tr><td><a class="tk" href="https://www.tradingview.com/symbols/NYSE-ORCL/" target="_blank" rel="noopener">ORCL</a><span class="nm">Oracle</span></td>
+          <td class="hide-s">Lessor, debt-funded</td><td><span class="chip s">Sell</span></td>
+          <td class="num">105%</td><td class="num">−8.10%</td>
+          <td>17.8x TTM / 13.3x fwd · FCF −$28.7B · net debt $132B (4.5x EBITDA) · &gt;50% of backlog is OpenAI · FQ2 Dec 10–11</td></tr>
+
+        <tr><td><a class="tk" href="https://www.tradingview.com/symbols/NYSE-BABA/" target="_blank" rel="noopener">BABA</a><span class="nm">Alibaba</span></td>
+          <td class="hide-s">China build</td><td><span class="chip s">Sell</span></td>
+          <td class="num">16.4%</td><td class="num">−6.31%</td>
+          <td>12.2x TTM / 10.1x fwd · cloud +53% but capex = 83% of cloud revenue · growth guided to 30–45% on chip rules</td></tr>
+
+        <tr><td><a class="tk" href="https://www.tradingview.com/symbols/NASDAQ-NVDA/" target="_blank" rel="noopener">NVDA</a><span class="nm">Nvidia</span></td>
+          <td class="hide-s">Fabless designer</td><td><span class="chip t">Hold small</span></td>
+          <td class="num">low</td><td class="num">3.73%</td>
+          <td>17.7x TTM / 11.4x fwd · 41% FCF margin · $60B net cash · SEC accounting probe unresolved</td></tr>
+
+        <tr><td><a class="tk" href="https://www.tradingview.com/symbols/NASDAQ-AVGO/" target="_blank" rel="noopener">AVGO</a><span class="nm">Broadcom</span></td>
+          <td class="hide-s">Fabless + software</td><td><span class="chip t">Trim</span></td>
+          <td class="num">low</td><td class="num">2.63%</td>
+          <td>40.0x TTM / 18.0x fwd · $35B net debt · custom-ASIC backlog strong but the multiple already pays for it</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>Dates that move this list</h2>
+  <div class="grid">
+    <div class="kbox"><b>Dec 9</b><span>FOMC + SEP</span></div>
+    <div class="kbox"><b>Dec 10–11</b><span>Oracle FQ2 — the credit test</span></div>
+    <div class="kbox"><b>Dec 17</b><span>Micron FQ1 — HBM 2027, capex</span></div>
+    <div class="kbox"><b>~Jan 8</b><span>Samsung Q4 preliminary</span></div>
+    <div class="kbox"><b>Jan 27</b><span>ASML Q4 + 2027 outlook</span></div>
+    <div class="kbox"><b>Jan 27–Feb 4</b><span>Sandisk FQ2 — NAND contracts</span></div>
+    <div class="kbox"><b>~Jan 28</b><span>SK hynix · WDC · STX</span></div>
+    <div class="kbox"><b>Late Jan</b><span>Hyperscaler 2027 capex guides</span></div>
+    <div class="kbox"><b>Feb 10</b><span>Vertiv Q4 + first 2027 guide</span></div>
+  </div>
+
+  <footer>
+    Prices are delayed and come from TradingView's public widget. Fundamentals are trailing-twelve-month from
+    stockanalysis.com as of the Nov 23, 2026 close, so the multiples reflect that close, not today's price.
+    KRX rows (SK hynix, Samsung) can render without a price in the free widget — click through for the quote;
+    their levels are in local currency. Levels are levels, not predictions. Personal notes for
+    discussion — not investment advice. Click any ticker to open its full chart.
+  </footer>
+
+</div>
+</body>
+</html>
